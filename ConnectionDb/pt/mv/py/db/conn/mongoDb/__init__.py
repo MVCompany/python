@@ -1,1 +1,1 @@
-pip instll pymongo
+name="pt.mv.py.db.conn.mongoDb"
