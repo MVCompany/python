@@ -3,11 +3,12 @@ Created on Aug 2, 2018
 
 @author: michel.valentin
 '''
-from pt.mv.py.db.conn import Connection
 from pymongo import MongoClient
+from pt.mv.py.db.conn.ConnectionDB import ConnectionDB
 
 
-class MongoDbConnection(Connection):
+class MongoDbConnection(ConnectionDB):
+    db = ''
 
     def __init__(self, host, port, user, passw):
         self.host = host
@@ -20,3 +21,8 @@ class MongoDbConnection(Connection):
     '''
     def openConnection(self):
         self.conn = MongoClient(self.host, self.port)
+        
+    
+    def createOrConnectDB(self, dbName):
+        self.db = self.conn[dbName]
+        

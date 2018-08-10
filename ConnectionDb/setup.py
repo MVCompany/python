@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ConnectionDb",
-    version="0.0.2",
+    name="connectionDb",
+    version="0.0.12",
     author="Valentin, Michel",
     author_email="michelvalent@gmail.com",
     description="ConnectionDB helper",
