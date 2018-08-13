@@ -4,7 +4,7 @@ Created on Aug 2, 2018
 @author: michel.valentin
 '''
 from pymongo import MongoClient
-from pt.mv.py.db.conn.ConnectionDB import ConnectionDB
+from connFramework.ConnectionDB import ConnectionDB
 
 
 class MongoDbConnection(ConnectionDB):

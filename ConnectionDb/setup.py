@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="connectionDb",
-    version="0.0.12",
+    version="0.0.13",
     author="Valentin, Michel",
     author_email="michelvalent@gmail.com",
     description="ConnectionDB helper",
