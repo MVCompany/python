@@ -5,8 +5,11 @@ You can get the source by: [Github-ConnectionDB](https://github.com/MVCompany/py
 to write your content.
 
 Package: ../python.exe setup.py sdist bdist_wheel
+
 Add Rep: python.exe" -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
 Rep: https://test.pypi.org/manage/project/connectiondb
+
 References:
 	package: https://packaging.python.org/tutorials/packaging-projects/
 	
